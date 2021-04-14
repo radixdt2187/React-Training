@@ -1,0 +1,217 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+header {
+  position: fixed;
+  display: block;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  background-image :linear-gradient(to right, pink, red);
+
+  color: #fff;
+  height: 90px;
+}
+header .logo {
+  color: #fff;
+  display: block;
+  position: absolute;
+  visibility: hidden;
+  top: 50%;
+  left: 15px;
+  text-decoration: none;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+header .logo h2 {
+  visibility: visible;
+}
+header nav, header nav ul, header nav ul li {
+  margin: 0;
+  padding: 0;
+}
+header nav {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+header nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+header nav.last {
+  margin: 0;
+}
+header nav a {
+  font-size: 19px;
+  line-height: normal;
+  color: #fff;
+}
+header .neon, header nav a:active, header nav a:link {
+  text-align: center;
+  margin: 200px auto;
+  text-transform: uppercase;
+  -webkit-animation: pulse 1.5s ease-in-out infinite alternate;
+  -moz-animation: pulse 1.5s ease-in-out infinite alternate;
+  -ms-animation: pulse 1.5s ease-in-out infinite alternate;
+  -o-animation: pulse 1.5s ease-in-out infinite alternate;
+  animation: pulse 1.5s ease-in-out infinite alternate;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.li .first{
+  background: #5D5F63
+}
+
+body {
+  color: #5D5F63;
+  background: white;
+  font-family: 'Open Sans',sans-serif;
+  padding: 0;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+.sidebar-toggle {
+  margin-left: -240px;
+}
+
+
+.sidebar {
+  width: 240px;
+  height: 100%;
+  background: pink;
+  background-image :linear-gradient(pink, red);
+  position: absolute;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  z-index: 100;
+}
+
+ul ul {
+  display: none;
+ 
+  }
+  li {
+    /* background:pink; */
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border-bottom: none;
+  }
+  a {
+    font-size: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: #aeb2b7;
+  }
+
+
+  a {
+    color: #aeb2b7;
+    text-decoration: none;
+    display: block;
+    padding: 18px 0 18px 25px;
+    font-size: 12px;
+    outline: 0;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+  }
+    span {
+      display: inline-block;
+    }
+    i {
+      width: 20px;
+    }
+      .fa-angle-left, .fa-angle-right {
+        padding-top: 3px;
+      }
+    
+
+
+      li {
+        list-style-type: none;
+        border-bottom: 1px solid rgba(255,255,255,.05);
+      }
+       
+           a {
+            color:#202322;
+          }
+          ul {
+            display: block;
+          }
+
+
+          .card{
+         padding-top: 100px;
+          }
+
+          .List_Name{
+            padding-right: 1000px;
+            font-size: 20px;
+            padding-top: 100px;
+
+          }
+          .form{
+            padding-left: 300px;
+          }
+          .count{
+            padding-left: 1000px;
+            font-size: 20px;
+            padding-top: 100px;
+
+          }
